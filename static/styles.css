@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+body .navbar {
+    background-color: #1f1f1f;
+}
+
+.image {
+    max-width: 100%;
+    height: 42px;
+}
+
+a.nav-link,
+.white {
+    color: white !important;
+}
+
+a.dropdown-item,
+.navbar-text {
+    color: white !important;
+}
+
+a.button-navs {
+    color: black !important;
+}
+
+a.dropdown-item:hover {
+    background-color: rgb(19, 19, 19);
+}
+
+a:hover {
+    color: #f3ba2f !important;
+}
+
+.dropdown-menu {
+    background-color: black !important;
+}
+
+.login-container {
+    box-sizing: border-box;
+    border: 1px solid rgb(209, 209, 209);
+    height: max-content;
+    width: 400px;
+    box-shadow: 1px 1px 20px 1px rgb(192, 192, 192);
+}
+
+.login-text {
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+}
+
+.small-text {
+    font-size: 12px;
+}
