@@ -19,8 +19,8 @@
 </head>
 
 <body class="overflow-x-hidden">
-    <div class="row">
-        <nav class="navbar navbar-dark container-fluid navbar-expand-sm text-style">
+    <div class="row text-style">
+        <nav class="navbar navbar-dark container-fluid navbar-expand-sm">
             <div class="navbar-brand">
                 <div class="mt-1 pt-1">
                     <img src="../static/Binance-logo-edit.png" alt="logo" class="image" loading="lazy">
@@ -47,8 +47,8 @@
     <div class="row container-fluid">
         <div class="login-container ml-auto mr-auto mt-4">
             <div class="login-text mt-4">
-                <h3 class="text-2xl">Log In</h3>
-                <p class="small-text text-gray-500">please check that you are visiting the correct URL</p>
+                <h3 class="text-2xl pt-4">Create a free account</h3>
+                <p class="small-text text-gray-500 mt-2 pt-1">Welcome to Binance</p>
             </div>
             <div class="row mt-5 ml-2 mb-4 border-bottom text-style">
                 <div class="col-3">
@@ -58,35 +58,31 @@
                     <p class="text-size-xl">Mobile</p>
                 </div>
             </div>
+
             <form method="POST" action="" class="text-style">
                 <div class="form-group m-3">
-                    <p class="small-text text-gray-500 mt-6">Email</p>
+                    <p class="small-text text-gray-500 mt-6 text-style">Email</p>
                     <input type="email" class="form-control hover:border-yellow-500 focus:border-yellow-500" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group m-3">
-                    <p class="small-text text-gray-500 mt-9">Password</p>
+                    <p class="small-text text-gray-500 mt-9 text-style">Password</p>
                     <input type="password" class="form-control hover:border-yellow-500 focus:border-yellow-500" id="exampleInputPassword1">
                 </div>
-                <button type="submit" class="btn btn-warning w-4/5 mt-2 ml-4 mb-2 mr-2 login-text">Log In</button>
+
+                <div class="form-group form-check ml-3 mt-4">
+                    <input type="checkbox" class="form-check-input p-4 h-4 w-5 focus:bg-yellow-500" id="exampleCheck1">
+                    <label class="form-check-label small-text text-style ml-2" for="exampleCheck1">I have read and agreed to the Terms of Service. <a href="" class="small-text text-yellow-400"> Binance's Terms</a></label>
+                </div>
+                <button type="submit" class="btn btn-warning w-4/5 mt-3 ml-5 mb-2 mr-2 login-text">Create Account</button>
             </form>
-            <div class="row m-2 mb-4 text-style base-text mt-4">
-                <div class="col-4">
-                    <a href="" class="text=black">
-                        Forgot Password?
-                    </a>
-                </div>
-                <div class="col-4 text-right">
-                    <a href="" class="text-yellow-500">Scan to login</a>
-                </div>
-                <div class="col-4">
-                    <a href="register.html" class="text-yellow-500">Free Registration</a>
-                </div>
+
+            <div class="text-center m-2 mb-4 text-style">
+                <p class="small-text text-gray-500 inline">Already registered?</p><a href="login.html" class="small-text text-yellow-500">Log In</a>
             </div>
         </div>
     </div>
 
-    <div class="text-center mt-12">
+    <div class="text-center mt-10">
         <p class="small-text text-gray-500">&#169; 2017-2021. All rights reserved</p>
     </div>
 </body>
