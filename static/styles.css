@@ -50,3 +50,11 @@ a:hover {
 .small-text {
     font-size: 12px;
 }
+
+.text-style {
+    font-family: 'Recursive', sans-serif;
+}
+
+.base-text {
+    font-size: 11px;
+}
