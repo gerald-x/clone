@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 @font-face {
     font-family: 'BinancePlex';
-    src: url('../static/font.woff2') format('woff2'), url('myfont.woff') format('woff');
+    src: url('../static/fonts/font.woff2') format('woff2'), url('myfont.woff') format('woff');
 }
 
 html,
@@ -73,14 +73,14 @@ a:hover {
 
 .bg {
     /* The image used */
-    background-image: url("../static/top-bg.png");
+    background-image: url("../static/pictures/top-bg.png");
     /* Full height */
     height: 40%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(67, 67, 67, 0.8);
+    background-color: rgb(36, 36, 36, 0.5);
     /* Black background with opacity */
     z-index: 2;
     /* Specify a stack order in case you're using a different order for other elements */
