@@ -23,12 +23,14 @@ body{
     border-radius:4px;
     text-decoration: none;
     border:0.5px solid rgb(0,0,0,0.07);
+    background: white;
 
 }
 .header-box{
     width:100%;
     padding-top:20px;
     padding-bottom:20px;
+    
     color:black;
 background-color: white;
 display:flex;
