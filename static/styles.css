@@ -92,3 +92,7 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+.diamond-size {
+    font-size: 8px;
+}
