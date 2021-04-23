@@ -9,9 +9,11 @@ body {
     font-family: BinancePlex, Arial, PingFangSC-Regular, 'Microsoft YaHei', sans-serif!important;
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
-body .navbar {
+body .navbar,
+.bottom-nav {
     background-color: rgba(0, 0, 0, 1);
 }
 
@@ -86,13 +88,16 @@ a:hover {
     /* Specify a stack order in case you're using a different order for other elements */
 }
 
-.jumbo {
-    height: 30%;
-    width: 100% !important;
-}
-
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.diamond-size {
+    font-size: 8px;
+}
+
+.svg-container:hover {
+    box-shadow: 1px 1px 20px 1px rgb(192, 192, 192);
 }
