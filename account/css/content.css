@@ -1,0 +1,144 @@
+.content-wrap{
+margin-left:12%;
+
+}
+
+.balance-box{
+padding:30px;
+margin-top: 24px;
+box-shadow: rgba(11, 14, 17, 0.08) 0px 2px 4px;
+border-radius: 4px;
+box-sizing: border-box;
+margin: 0px;
+min-width: 0px;
+display: flex;
+background-color: rgb(255, 255, 255);
+flex-direction: column;
+width:95%;
+margin-left:auto;
+margin-right:auto;
+margin-top:30px;
+}
+.balance-box .name{
+    box-sizing: border-box;
+margin: 0px;
+min-width: 0px;
+display: flex;
+-moz-box-align: center;
+align-items: center;
+box-sizing: border-box;
+margin: 0px;
+min-width: 0px;
+font-size: 14px;
+color: rgb(112, 122, 138);
+}
+.balance-box .amount{
+    box-sizing: border-box;
+    margin: 12px 0px 0px;
+    min-width: 0px;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.balance-box .amount .main{
+    box-sizing: border-box;
+margin: 0px 4px -1px 0px;
+    margin-bottom: 0px;
+min-width: 0px;
+font-size: 32px;
+color: rgb(30, 35, 41);
+line-height: 100%;
+
+}
+.balance-box .amount .crypt{
+    box-sizing: border-box;
+margin: 0px;
+min-width: 0px;
+font-size: 14px;
+}
+.balance-box .amount .equiv{
+    box-sizing: border-box;
+margin: 0px 0px 0px 4px;
+min-width: 0px;
+color: rgb(112, 122, 138);
+font-size:14px;
+}
+
+.other{
+    width:95%;
+    margin:auto;
+    border-radius: 4px;
+box-sizing: border-box;
+margin: auto;
+margin-top:50px;
+}
+.extra-box .row:nth-of-type(1){
+
+
+    padding-right:80px;
+}
+
+.extra-box .row:nth-of-type(2){
+padding-left:30px;
+border-left:0.5px solid rgb(0,0,0,0.07);
+box-sizing: border-box;
+margin: 0px;
+min-width: 0px;
+font-size: 12px;
+color: rgb(112, 122, 138);
+line-height: 20px;
+}
+
+.extra-box{
+    margin-top: 24px;
+
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    }
+    .extra-box .name{
+        box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-size: 14px;
+    color: rgb(112, 122, 138);
+    }
+    .extra-box .amount{
+        box-sizing: border-box;
+        margin: 12px 0px 0px;
+        min-width: 0px;
+        display: flex;
+        -moz-box-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .extra-box .amount .main{
+        box-sizing: border-box;
+    margin: 0px 4px -1px 0px;
+        margin-bottom: 0px;
+    min-width: 0px;
+    font-size: 22px;
+    color: rgb(30, 35, 41);
+    line-height: 100%;
+    
+    }
+.other{
+    width:95%;
+    padding:30px;
+    background-color:white;
+}
