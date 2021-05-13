@@ -75,17 +75,13 @@ a:hover {
 
 .bg {
     /* The image used */
-    background-image: url("../static/pictures/top-bg.png");
+    background-image: url("../static/pictures/top-bg.png"), linear-gradient(to right, #1a1313, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     /* Full height */
     height: 40%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(36, 36, 36, 0.5);
-    /* Black background with opacity */
-    z-index: 2;
-    /* Specify a stack order in case you're using a different order for other elements */
 }
 
 .center {
